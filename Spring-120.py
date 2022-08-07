@@ -282,8 +282,8 @@ class compression:
                                                                                 add_bits118=""
                                                                                 count_bits=long_block-lenf%long_block
                                                                                 z=0
-                                                                                if count_bits!=0:
-                                                                                    if count_bits!=long_block:
+                                                                                
+                                                                                if count_bits!=long_block:
                                                                                         while z<count_bits:
                                                                                             add_bits118="0"+add_bits118
                                                                                             z=z+1
@@ -303,8 +303,8 @@ class compression:
                                                                                 add_bits118=""
                                                                                 count_bits=Size_max_zeroes-lenf%Size_max_zeroes
                                                                                 z=0
-                                                                                if count_bits!=0:
-                                                                                    if count_bits!=Size_max_zeroes:
+                                                                               
+                                                                                if count_bits!=Size_max_zeroes:
                                                                                         while z<count_bits:
                                                                                             add_bits118="0"+add_bits118
                                                                                             z=z+1
@@ -374,8 +374,8 @@ class compression:
                                     add_bits118=""
                                     count_bits=8-lenf%8
                                     z=0
-                                    if count_bits!=0:
-                                            if count_bits!=8:
+                                    
+                                    if count_bits!=8:
                                                 while z<count_bits:
                                                     add_bits118="0"+add_bits118
                                                     z=z+1
@@ -728,8 +728,8 @@ class compression:
                                                                                     add_bits118=""
                                                                                     count_bits=long_block-lenf%long_block
                                                                                     z=0
-                                                                                    if count_bits!=0:
-                                                                                        if count_bits!=long_block:
+                                                                                   
+                                                                                    if count_bits!=long_block:
                                                                                             while z<count_bits:
                                                                                                 add_bits118="0"+add_bits118
                                                                                                 z=z+1
@@ -786,8 +786,8 @@ class compression:
                                     count_bits=8-lenf%8
                                     z=0
                                    
-                                    if count_bits!=0:
-                                          if count_bits!=8:
+                                   
+                                    if count_bits!=8:
                                                while z<count_bits:
                                                    add_bits118="0"+add_bits118
                                                    z=z+1
