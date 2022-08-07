@@ -39,7 +39,7 @@ class compression:
                     
                     
 
-                    nameas=+".bin"
+                    nameas=name+".bin"
                 
                     nac=len(nameas)
                     
