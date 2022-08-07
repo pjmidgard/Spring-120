@@ -37,9 +37,7 @@ class compression:
                     long=len(name)
 
                     
-                    if name[long-4:long]==".doc":
-                        print("Sorry wrong format not for .doc.")
-                        raise SystemExit
+                    
 
                     nameas=+".bin"
                 
@@ -170,11 +168,7 @@ class compression:
                                     lenf3=len(size_data2)
                                 lenf2=len(size_data2)
 
-                                if lenf2<=15345:
-                                    x4=0.0
-                                    print("File too small")
-                                    print(x4)
-                                    raise SystemExit
+                                
                                     
                                 
                                 size_data3=size_data2
